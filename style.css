@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+nav .links svg{
+    fill: white;
+}
+
+nav .links ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+nav .rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+header{
+    background-color:#541554;
+    height: 80vh;
+    width: 100%;
+}
+
+.headerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 80px;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.headerGrid video{
+    max-width: 600px;
+    padding: 40px 0;
+}
+.headerGrid .text h1{
+    font-size:4rem;
+    color: white;
+}
+.headerGrid .text h1 span{
+    font-size:4rem;
+    color: rgb(190, 190, 37);
+}
+.headerGrid .text{
+    padding: 30 70px;
+    margin-left: 60px;
+}
+.headerGrid .text p{
+    color: white;
+    font-size: 1.2rem;
+}
+.headerGrid .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.headerGrid .secSpan{
+    color: white;
+    font-size: 1.2rem;
+    font-weight:550;
+}
+
+.headerGrid .buttons button{
+    padding: 20px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.headerGrid .buttons :nth-child(2){
+    background-color: rgba(71, 139, 248, 0.89);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+.headerGrid .buttons :first-child{
+    color: #541554;
+}
+
+.headerGrid .buttons :nth-child(2) svg{
+    background-color: white;
+    width: 20px;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.headerGrid .buttons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.rightNav button{
+    padding: 12px;
+    border-radius: 5px;
+}
+.rightNav :nth-child(3){
+    color: white;
+    border-color: white;
+    background-color: #541554;
+    font-weight: bolder;
+    
+}
+.rightNav :nth-child(4){
+    color: #541554;
+    font-weight: bolder;
+    border-color: white;
+}
+
+/*  first section */
+
+.first{
+    background-color: rgb(248, 241, 228);
+}
+
+.companies{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.companies ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.vid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 100px; */
+    padding: 50px;
+}
+.vid video{
+    max-height: 300px;
+}
+.vid .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 20px;
+    max-width: 35rem;
+}
+.vid .text h1{
+    font-size: 3rem;
+}
+.vid .text p{
+    font-weight: bolder;
+}
+.vid .text a{
+    text-decoration: none;
+    color: rgba(27, 77, 243, 0.87);
+    font-weight: bolder;
+}
+
+
+/* second section */
+
+.section-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 100px;
+}
+
+.section-head h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.section-head p{
+    font-weight: 900;
+    font-size: 1.18rem;
+}
+
+.section-head button{
+    padding: 18px 50px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.section-head .buttons :nth-child(1){
+    color: white;
+    border-color:#541554;
+    background-color: #541554;
+    font-weight: bolder;
+    
+}
+.section-head .buttons :nth-child(2){
+    color: #541554;
+    font-weight: bolder;
+    border-color:#541554;
+
+}
+
+.section-head .percentage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 200px;
+}
+
+.section-head .percentage h1{
+    color: #541554;
+    font-weight: bolder;
+    font-size: 3.5rem;
+
+}
+
+.section-head .percentage span{
+    max-width: 200px;
+}
+
+.section-head .vid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 100px; */
+    padding: 50px;
+}
+.section-head .vid video{
+    max-height: 300px;
+}
+.section-head .vid .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 20px;
+    max-width: 35rem;
+}
+.section-head .vid .text h2{
+    font-size: 3rem;
+}
+.section-head .vid .text p{
+    font-weight: bolder;
+}
+.section-head .vid .text a{
+    text-decoration: none;
+    color: rgba(27, 77, 243, 0.87);
+    font-weight: bolder;
+}
+
+.second-sec-last-para{
+    color: grey;
+    text-align: center;
+}
+
+
+/* Third section */
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+
+}
+
+.third h1{
+    font-weight: 900;
+    font-size: 2.2rem;
+    padding: 40px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.secGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 80vw;
+    grid-column-gap: 2%;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    gap: 15px;
+    padding: 12px;
+    padding-bottom: 80px;
+    position: relative;
+    object-fit: cover;
+}
+
+.card a{
+    position: absolute;
+    top: 380px;
+    bottom: 0;
+    left: 10;
+}
+
+.third{
+    background-color: rgb(248, 241, 228);
+    max-height: 800px;
+}
+
+/* footer */
+
+footer .foot-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    gap: 50px;
+    background-color: #541554;
+    clip-path: ellipse(75% 100% at center top);
+}
+
+.foot-text button{
+    padding: 18px 50px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.foot-text .buttons :nth-child(2){
+    color: white;
+    border-color:white;
+    background-color: #541554;
+    font-weight: bolder;
+    
+}
+.foot-text .buttons :nth-child(1){
+    color: #541554;
+    font-weight: bolder;
+    border-color:#541554;
+
+}
+
+.foot-text h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 50px;
+    max-width: 85vw;
+    margin: auto;
+}
+.footer-grid ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.footer-grid li{
+    color: grey;
+}
+.footer-grid ul  :nth-child(1){
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: black;
+}
+
+
+

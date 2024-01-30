@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slack is your productivity platform</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="links">
+                <ul>
+                    <li><svg width="100" class="c-slacklogo--color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" shape-rendering="geometricPrecision"><title>Slack</title><path d="m75.663 47.477 2.929-6.846c3.207 2.375 7.39 3.632 11.574 3.632 3.068 0 5.02-1.187 5.02-3.003-.07-5.03-18.477-1.118-18.617-13.764-.07-6.427 5.648-11.387 13.737-11.387 4.81 0 9.622 1.188 13.038 3.913l-2.737 6.992c-3.143-2.021-7.025-3.43-10.72-3.43-2.51 0-4.184 1.187-4.184 2.725.07 4.96 18.618 2.235 18.827 14.322 0 6.567-5.579 11.178-13.528 11.178-5.856 0-11.225-1.397-15.34-4.332m116.629-9.325a8.498 8.498 0 0 1 -7.405 4.33c-4.698 0-8.506-3.816-8.506-8.523s3.808-8.523 8.506-8.523a8.498 8.498 0 0 1 7.405 4.33l8.143-4.52c-3.05-5.451-8.868-9.137-15.548-9.137-9.839 0-17.815 7.991-17.815 17.85 0 9.858 7.976 17.85 17.815 17.85 6.68 0 12.498-3.686 15.548-9.137zm-82.477 12.958h10.18v-49.86h-10.179zm95.761-49.86v49.86h10.18v-14.938l12.063 14.938h13.012l-15.34-17.746 14.224-16.559h-12.454l-11.505 13.767v-29.322zm-54.218 15.557v4.053c-1.673-2.795-5.787-4.751-10.11-4.751-8.925 0-15.967 7.895-15.967 17.815s7.042 17.885 15.967 17.885c4.323 0 8.437-1.956 10.11-4.751v4.052h10.18v-34.303zm0 21.414c-1.464 2.445-4.532 4.26-7.948 4.26-4.699 0-8.507-3.815-8.507-8.522s3.808-8.523 8.507-8.523c3.416 0 6.484 1.886 7.948 4.4z"></path><path d="m21.902.148c-3.299 0-5.973 2.68-5.973 5.985a5.979 5.979 0 0 0 5.973 5.985h5.974v-5.985a5.98 5.98 0 0 0 -5.974-5.985m0 15.96h-15.929c-3.299 0-5.973 2.68-5.973 5.986 0 3.305 2.674 5.985 5.973 5.985h15.93c3.298 0 5.973-2.68 5.973-5.985 0-3.306-2.675-5.986-5.974-5.986" fill="#44BEDF"></path><path d="m59.734 22.094c0-3.306-2.675-5.986-5.974-5.986s-5.973 2.68-5.973 5.986v5.985h5.973a5.98 5.98 0 0 0 5.974-5.985m-15.929 0v-15.961a5.98 5.98 0 0 0 -5.974-5.985c-3.299 0-5.973 2.68-5.973 5.985v15.96c0 3.307 2.674 5.987 5.973 5.987a5.98 5.98 0 0 0 5.974-5.985" fill="#2EB67D"></path><path d="m37.831 60a5.98 5.98 0 0 0 5.974-5.985 5.98 5.98 0 0 0 -5.974-5.985h-5.973v5.985c0 3.305 2.674 5.985 5.973 5.985m0-15.96h15.93c3.298 0 5.973-2.68 5.973-5.986a5.98 5.98 0 0 0 -5.974-5.985h-15.929c-3.299 0-5.973 2.68-5.973 5.985a5.979 5.979 0 0 0 5.973 5.985" fill="#ECB22E"></path><g><path d="m0 38.054a5.979 5.979 0 0 0 5.973 5.985 5.98 5.98 0 0 0 5.974-5.985v-5.985h-5.974c-3.299 0-5.973 2.68-5.973 5.985m15.929 0v15.96c0 3.306 2.674 5.986 5.973 5.986a5.98 5.98 0 0 0 5.974-5.985v-15.961a5.979 5.979 0 0 0 -5.974-5.985c-3.299 0-5.973 2.68-5.973 5.985" fill="#E01E5A"></path></g></svg></li>
+                    <li>Features</li>
+                    <li>Solutions</li>
+                    <li>Enterprise</li>
+                    <li>Resources</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+            <div class="rightNav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M17.5 17.5L22 22" stroke="#f8f1f1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z" stroke="#f8f1f1" stroke-width="1.5" stroke-linejoin="round"/>
+                    </svg>
+                <span>Sign in</span>
+                <button>TALK TO SALES</button>
+                <button>TRY FOR FREE</button>
+            </div>
+        </nav>
+
+        <div class="headerGrid">
+            <div class="text">
+                <h1>Made for people. <span>Built for productivity.</span></h1>
+                <p>Connect the right people, find anything that you need and automate the rest. That’s work in Slack, your productivity platform.</p>
+                <div class="buttons">
+                    <button>SIGN UP WITH EMAIL ADDRESS </button>
+                    <button>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="LgbsSe-Bz112c"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg> <span>SIGN UP WITH GOOGLE </span> </button>
+                </div>
+                <span class="secSpan">Slack is free to try for as long as you like</span>
+            </div>
+            <div class="video">
+                <video src="https://a.slack-edge.com/ec3a92a/marketing/img/homepage/true-prospects/animations/mp4/ia4-hero-product-ui.IN.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+    </header>
+
+    <section class="first">
+        <div class="companies">
+            <h3>
+                TRUSTED BY COMPANIES ALL OVER THE WORLD
+            </h3>
+            <div class="images">
+                <ul>
+                    <li><img src="https://a.slack-edge.com/8719b/marketing/img/logos/company/_color/logo-seek.png"></li>
+                    <li><img src="https://a.slack-edge.com/8719b/marketing/img/logos/company/_color/logo-xero.png"></li>
+                    <li><img src="https://a.slack-edge.com/96f2e65/marketing/img/logos/company/_color/rea.png"></li>
+                    <li><img src="https://a.slack-edge.com/f854ec/marketing/img/logos/company/_color/rmit.png"></li>
+                    <li><img src="https://a.slack-edge.com/a121d33/marketing/img/digital-hq/logo-ibm.png"></li>
+                    <li><img src="https://a.slack-edge.com/f854ec/marketing/img/logos/company/_color/deliveroo.png"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="vid">
+            <div class="video"><video src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/webm/speed.IN.webm" autoplay loop muted></video></div>
+            <div class="text">
+                <h1>Move faster with your tools in one place</h1>
+                <p>Automate away routine tasks with the power of generative AI and simplify your workflow with all your favourite apps ready to go in Slack.</p>
+                <a href="#">Learn more about the Slack platform</a>
+            </div>
+        </div>
+
+
+        <div class="vid">
+            <div class="text">
+                <h1>Choose how you want to work</h1>
+                <p>In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat, send audio and video clips, or join a huddle to talk things through live.</p>
+                <a href="">Learn more about flexible communication</a>
+            </div>
+            <video src="https://a.slack-edge.com/ec3a92a/marketing/img/homepage/true-prospects/animations/webm/ia4-flexibility.IN.webm"autoplay loop muted></video>
+        </div>
+
+
+        <div class="vid">
+            <video src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/webm/connectedness.IN.webm"autoplay loop muted></video>
+        
+        <div class="text">
+            <h1>Bring your team together</h1>
+            <p>At the heart of Slack are channels: organised spaces for everyone and everything that you need for work. In channels, it’s easier to connect across departments, offices, time zones and even other companies.</p>
+            <a href="">Learn more about channels</a>
+        </div>
+    </div>
+    </section>
+
+    <section class="second">
+        <div class="section-head">
+            <h1>Teams large and small rely on Slack</h1>
+            <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+            <div class="buttons">
+                <button>
+                    MEET SLACK FOR ENTERPRISE
+                </button>
+                <button>
+                    TALK TO SALES
+                </button>
+            </div>
+            <div class="percentage">
+                <span><h1>85%</h1><span>of users say that Slack has improved communication*</span></span>
+                <span><h1>86%</h1><span>feel that their ability to work remotely has improved*</span></span>
+                <span><h1>88%</h1><span>feel more connected to their teams*</span></span>
+            </div>
+        </div>
+        <div class="vid">
+            <video src="https://a.slack-edge.com/1b4e2a3/marketing/img/homepage/true-prospects/customer-showcase/Vodafone_08.mp4"autoplay loop muted></video>
+        
+        <div class="text">
+            <h2>‘Many technology employees were gravitating naturally to Slack. So we followed our users to what has become one of our most important tools.’</h2>
+            <span>Matt Beal</span>
+                <span>Director of Technology Strategy and Architecture, Vodafone</span>
+            <a href="">See more customer stories</a>
+        </div>
+    </div>
+    <p class="second-sec-last-para">* Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada with a ± 2% margin of error at 95% CI (December 2021).</p>
+    </section>
+
+    <section class="third">
+        <h1>Take a deeper dive into a new way to work</h1>
+        <div class="secGrid">
+
+
+            <div class="card">
+                <img src="https://a.slack-edge.com/b37cac3/marketing/img/promos/promo-card-dreamforce-2023.png">
+                <p>Event</p>
+                <h2>Ready for the future of AI in Slack?</h2>
+                <a href="">WATCH ON DEMAND</a>
+            </div>
+
+
+            <div class="card">
+                <img src="https://a.slack-edge.com/6b9d9e8/marketing/img/promos/wtny-resource-tile.jpg">
+                <p>On demand</p>
+                <h2>Big things are launching Relive the highlights of world tour New York</h2>
+                <a href="">WATCH NOW</a>
+            </div>
+
+
+            <div class="card">
+                <img src="https://a.slack-edge.com/426ed86/marketing/img/promos/promo-open-ai.jpg">
+                <p>Customer Story</p>
+                <h2>How open AI expands ChatGPT with Slack</h2>
+                <a href="">READ MORE</a>
+            </div>
+
+
+            <div class="card">
+                <img src="https://a.slack-edge.com/426ed86/marketing/img/promos/promo-boost-productivity.jpg">
+                <p>Webinar</p>
+                <h2>Top Slack tips to boost productivity</h2>
+                <a href="">WATCH NOW</a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="foot-text">
+        <h1>See all that you can accomplish with Slack</h1>
+        <div class="buttons">
+            <button>TRY FOR FREE</button>
+            <button>TALK TO SALES</button>
+        </div>
+    </div>
+        <div class="footer-grid">
+            <ul>
+                <li>
+                    <svg width="54" height="54" class="c-nav--footer__svgicon c-slackhash" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><title>Slack</title><g fill="none" fill-rule="evenodd"><path d="M19.712.133a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386h5.376V5.52A5.381 5.381 0 0 0 19.712.133m0 14.365H5.376A5.381 5.381 0 0 0 0 19.884a5.381 5.381 0 0 0 5.376 5.387h14.336a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386" fill="#44BEDF"></path><path d="M53.76 19.884a5.381 5.381 0 0 0-5.376-5.386 5.381 5.381 0 0 0-5.376 5.386v5.387h5.376a5.381 5.381 0 0 0 5.376-5.387m-14.336 0V5.52A5.381 5.381 0 0 0 34.048.133a5.381 5.381 0 0 0-5.376 5.387v14.364a5.381 5.381 0 0 0 5.376 5.387 5.381 5.381 0 0 0 5.376-5.387" fill="#2EB67D"></path><path d="M34.048 54a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386h-5.376v5.386A5.381 5.381 0 0 0 34.048 54m0-14.365h14.336a5.381 5.381 0 0 0 5.376-5.386 5.381 5.381 0 0 0-5.376-5.387H34.048a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386" fill="#ECB22E"></path><path d="M0 34.249a5.381 5.381 0 0 0 5.376 5.386 5.381 5.381 0 0 0 5.376-5.386v-5.387H5.376A5.381 5.381 0 0 0 0 34.25m14.336-.001v14.364A5.381 5.381 0 0 0 19.712 54a5.381 5.381 0 0 0 5.376-5.387V34.25a5.381 5.381 0 0 0-5.376-5.387 5.381 5.381 0 0 0-5.376 5.387" fill="#E01E5A"></path></g></svg>
+                </li>
+            </ul>
+            <ul>
+                <li >WHY SLACK?</li>
+                <li>Slack vs email</li>
+                <li>Channels</li>
+                <li>Engagement</li>
+                <li>Scale</li>
+                <li>Watch demo</li>
+            </ul>
+            <ul>
+                <li >PRODUCT</li>
+                <li>Features</li>
+                <li>Integrations
+                </li>
+                    <li>Solutions</li>
+                    
+                <li>Enterprise</li>
+            </ul>
+            <ul>
+                <li >PRICING</li>
+                <li>Subscriptions</li>
+                <li>Paid vs free</li>
+            </ul>
+            <ul>
+                <li >RESOURCES</li>
+                <li>Partners</li>
+                <li>Developers</li>
+                <li>Community</li>
+                <li>Apps</li>
+                <li>Blog</li>
+                <li>Help Centre</li>
+                <li>Events</li>
+            </ul>
+            <ul>
+                <li >COMPANY</li>
+                <li>About us</li>
+                <li>Leadership</li>
+                <li>News</li>
+                <li>Media kit</li>
+                <li>Careers</li>
+                <li>Slack shop</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
